@@ -9,7 +9,7 @@
 export default {
   dev: {
     '/api/': {
-      target: 'https://preview.pro.ant.design',
+      target: 'http://yapi.youtingkun.com/mock/382',
       changeOrigin: true,
       pathRewrite: { '^': '' },
     },
