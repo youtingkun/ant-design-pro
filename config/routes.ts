@@ -19,6 +19,12 @@
     ],
   },
   {
+    path: '/temp',
+    name: 'welcome',
+    icon: 'smile',
+    component: './temp/index.tsx',
+  },
+  {
     path: '/welcome',
     name: 'welcome',
     icon: 'smile',
