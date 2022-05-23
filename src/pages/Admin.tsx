@@ -1,10 +1,10 @@
-import React from 'react';
 import { HeartTwoTone, SmileTwoTone } from '@ant-design/icons';
-import { Card, Typography, Alert } from 'antd';
-import { PageHeaderWrapper } from '@ant-design/pro-layout';
+import { PageHeaderWrapper } from '@ant-design/pro-components';
+import { Alert, Card, Typography } from 'antd';
+import React from 'react';
 import { useIntl } from 'umi';
 
-export default (): React.ReactNode => {
+const Admin: React.FC = () => {
   const intl = useIntl();
   return (
     <PageHeaderWrapper
@@ -41,3 +41,5 @@ export default (): React.ReactNode => {
     </PageHeaderWrapper>
   );
 };
+
+export default Admin;

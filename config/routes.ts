@@ -4,14 +4,9 @@
     layout: false,
     routes: [
       {
-        path: '/user',
-        routes: [
-          {
-            name: 'login',
-            path: '/user/login',
-            component: './user/Login',
-          },
-        ],
+        name: 'login',
+        path: '/user/login',
+        component: './user/Login',
       },
       {
         component: './404',
@@ -35,7 +30,6 @@
     name: 'admin',
     icon: 'crown',
     access: 'canAdmin',
-    component: './Admin',
     routes: [
       {
         path: '/admin/sub-page',

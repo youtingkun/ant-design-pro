@@ -8,15 +8,15 @@
  */
 export default {
   dev: {
+    // localhost:8000/api/** -> https://preview.pro.ant.design/api/**
     '/api/': {
       target: 'http://yapi.youtingkun.com/mock/382',
       changeOrigin: true,
-      pathRewrite: { '^': '' },
     },
   },
   test: {
     '/api/': {
-      target: 'https://preview.pro.ant.design',
+      target: 'https://proapi.azurewebsites.net',
       changeOrigin: true,
       pathRewrite: { '^': '' },
     },
